@@ -1,8 +1,8 @@
 var HTMLWebpackPlugin = require('html-webpack-plugin');
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
-    template: __dirname + '/app/index.js',
+    template: __dirname + '/app/index.html',
     filename: 'index.html',
-    inject: 'head'
+    inject: 'footer'
 });
 
 module.exports = {

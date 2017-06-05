@@ -9519,15 +9519,17 @@ module.exports = getIteratorFn;
 
 var React = __webpack_require__(50);
 
-class Hello extends React.Component {
-    render() {
+var Hello = React.createClass({
+    displayName: 'Hello',
+
+    render: function () {
         return React.createElement(
             'h1',
             null,
             'HELLLLOOOO'
         );
     }
-};
+});
 
 module.exports = Hello;
 
