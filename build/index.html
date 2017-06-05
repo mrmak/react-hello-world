@@ -1,0 +1,35 @@
+Html Webpack Plugin:
+<pre>
+  Error: /Users/andrew/projects/react-projects/hello-world/app/index.js:10292
+  ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
+                                                  ^
+  ReferenceError: document is not defined
+  
+  - index.js:10292 Object.<anonymous>
+    /Users/andrew/projects/react-projects/hello-world/app/index.js:10292:49
+  
+  - index.js:21 __webpack_require__
+    /Users/andrew/projects/react-projects/hello-world/app/index.js:21:30
+  
+  - index.js:67 module.exports
+    /Users/andrew/projects/react-projects/hello-world/app/index.js:67:18
+  
+  - index.js:70 
+    /Users/andrew/projects/react-projects/hello-world/app/index.js:70:10
+  
+  - index.js:232 HtmlWebpackPlugin.evaluateCompilationResult
+    [hello-world]/[html-webpack-plugin]/index.js:232:26
+  
+  - index.js:117 
+    [hello-world]/[html-webpack-plugin]/index.js:117:21
+  
+  - util.js:16 tryCatcher
+    [hello-world]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [hello-world]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [hello-world]/[bluebird]/js/release/promise.js:569:18
+  
+</pre>

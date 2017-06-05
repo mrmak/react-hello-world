@@ -1,0 +1,16 @@
+.*.sw[a-z]
+*.un~
+Session.vim
+*.tmproj
+*.tmproject
+tmtags
+.DS_Store
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.data
+.vagrant
+ignore_me/
+node_modules/
+
